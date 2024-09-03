@@ -1,0 +1,53 @@
+.btn-success {
+    background-color: #42B729 !important; /* Change background color */
+    border-color: #42B729 !important;     /* Change border color */
+}
+
+body {
+    background-color: #F0F2F5;
+}
+
+.container {
+    min-height: 75vh;
+}
+
+.box-logo {
+    width: 500px;
+}
+
+.box-logo > img {
+    width: 500px;
+}
+
+.box-logo > p {
+    font-size: 26px;
+}
+
+.box-form {
+    width: 500px;
+}
+
+.footer {
+    min-height: 25vh;
+}
+
+.footer a {
+    padding-right: 15px;
+    text-decoration: none;
+    color: gray;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 992px) {
+    .box-logo > img {
+        position: relative;
+    }
+    .box-logo > img {
+        position: relative;
+        left: -48px;
+        /* background-color: red; */
+    }
+}
